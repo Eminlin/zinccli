@@ -1,6 +1,6 @@
 package schema
 
-import "zinccli/meta"
+import "github.com/Eminlin/zinccli/meta"
 
 type CreateIndexRequest struct {
 	Name        string        `json:"name"`

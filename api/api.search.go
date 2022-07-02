@@ -2,7 +2,8 @@ package api
 
 import (
 	"encoding/json"
-	"zinccli/api/schema"
+
+	"github.com/Eminlin/zinccli/api/schema"
 )
 
 func (z *ZincApi) Search(indexName string, query string) (*schema.SearchResponse, error) {

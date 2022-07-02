@@ -1,6 +1,6 @@
 package zinccli
 
-import "zinccli/api"
+import "github.com/Eminlin/zinccli/api"
 
 type (
 	ZincConfig api.ZincConfig

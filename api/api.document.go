@@ -2,7 +2,8 @@ package api
 
 import (
 	"encoding/json"
-	"zinccli/api/schema"
+
+	"github.com/Eminlin/zinccli/api/schema"
 )
 
 func (z *ZincApi) CreateDocument(indexName string, data string) (*schema.DocumentResponse, error) {
